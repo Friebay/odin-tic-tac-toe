@@ -1,4 +1,15 @@
-#game-container {
+#player-setup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #player-setup input {
+    margin: 5px;
+  }
+  
+  #game-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,6 +28,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 2em;
     background-color: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  #game-status {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
   }
   
